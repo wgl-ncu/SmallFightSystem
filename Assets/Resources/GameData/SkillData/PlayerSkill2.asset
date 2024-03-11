@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a6b9f48c4fd16498325681faa5a5f2, type: 3}
+  m_Name: PlayerSkill2
+  m_EditorClassIdentifier: 
+  id: 6
+  skillName: "\u73A9\u5BB6\u6CBB\u7597"
+  cd: 7
+  releasePairs:
+  - release: 0.1
+    effectValue: 1
+    calWay: 0
+    range: 1
+    scope: 1
+    effect: 1
+    selectWay: 2
+    tarNum: 1
+    buffs: 
+  - release: 0.5
+    effectValue: 1
+    calWay: 0
+    range: 1
+    scope: 1
+    effect: 1
+    selectWay: 2
+    tarNum: 1
+    buffs: 
+  - release: 1
+    effectValue: 2
+    calWay: 0
+    range: 1
+    scope: 1
+    effect: 1
+    selectWay: 2
+    tarNum: 1
+    buffs: 
+  - release: 1.8
+    effectValue: 3
+    calWay: 0
+    range: 1
+    scope: 1
+    effect: 1
+    selectWay: 2
+    tarNum: 1
+    buffs: 02000000
+  time: 2
+  animName: skill
+  startVFXs:
+  - path: VFX/VFXPlayerSkill2
+    offset: 0
+    loadWay: 0
